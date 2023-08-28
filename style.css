@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.navbar-logo{
+    width: 30%;
+}
+
+.navbar-logo h1{
+    font-size: 30px;
+}
+
+.navbar-logo h1 span{
+    color: #da3b60;
+}
+
+
+.navlist{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist a{
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+.navlist button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #da3b60;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 120px 150px;
+}
+
+.section-one-text{
+    width: 50%;
+}
+
+.the-red-p{
+    color: #da3b60;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.enroll-now{
+    padding: 8px 36px;
+    border: none;
+    background-color: #da3b60;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.explore{
+    padding: 8px 36px;
+    border: 2px solid #da3b60;
+    background-color: white;
+    color: #da3b60;
+    font-size: 20px;
+    margin-right: 16px;
+}
+.section-one-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section-one-img img{
+    width: 100%;
+}
+
+.stories{
+    padding: 0 150px 120px;
+}
+
+.top-p{
+    font-size: 30px;
+}
+
+#stori{
+    background-color: #eaeaea;
+}
+
+#memories{
+    font-size: 14px;
+}
+
+.stories-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.stories-1-image{
+    width: 50%;
+    position: relative;
+}
+
+.stories-1-image img{
+    width: 100%;
+}
+
+.absolute-1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+.absolute-2{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.stories-1-txt{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.stories-1-txt-center-p{
+    margin: 40px 0;
+}
+
+.stories-1-txt-button{
+    padding: 8px 36px;
+    border: none;
+    background-color: #da3b60;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 16px;
+}
