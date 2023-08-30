@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .navbar{
@@ -39,11 +41,12 @@
 }
 
 .navlist button{
-    padding: 10px 30px;
+    padding: 8px 24px;
     border: none;
     background-color: #da3b60;
     color: white;
-    border-radius: 4px;
+    border-radius: 6px;
+    font-size: 20px;
 }
 
 
@@ -55,12 +58,12 @@
 }
 
 .section-one-text{
-    width: 50%;
+    width: 60%;
 }
 
 .the-red-p{
     color: #da3b60;
-    font-size: 32px;
+    font-size: 36px;
     margin-top: 10px;
 }
 
@@ -83,7 +86,7 @@
     margin-right: 16px;
 }
 .section-one-img{
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
 }
@@ -113,8 +116,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-}
-
+} 
+ 
 .stories-1-image{
     width: 50%;
     position: relative;
@@ -155,4 +158,48 @@
     border-radius: 6px;
     font-size: 20px;
     margin-right: 16px;
+}
+
+.technical-mentors{
+    padding: 0 150px 120px;
+}
+
+.teachers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.one-teacher{
+    width: 24%;
+}
+
+.teacher-img{
+    width: 100%;
+    position: relative;
+}
+
+.teacher-img img{
+    width: 100%;
+}
+
+.teacher-img p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.one-teacher h4{
+    color: #da3b60;
+    margin: 16px 0;
+}
+
+.one-teacher button{
+    padding: 8px 24px;
+    border: none;
+    background-color: #da3b60;
+    color: white;
+    border-radius: 6px;
+    margin-top: 20px;
 }
