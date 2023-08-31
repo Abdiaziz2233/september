@@ -254,3 +254,22 @@
     border: none;
     color: #ffffff;
 }
+.bottom{
+    width: 100%;
+    padding: 0 150px 120px;
+}
+.button-5{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:1px;
+}
+.span-2{
+    color: #da3b60;
+
+}
+.bottom-1{
+    color: brown;
+    font-size: 24px;
+
+}
