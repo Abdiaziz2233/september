@@ -259,17 +259,28 @@
     padding: 0 150px 120px;
 }
 .button-5{
-    background-color: red;
+    background-color: #da3b60;
     color: white;
     border: none;
-    border-radius:1px;
+    border-radius: 6px;
+    padding: 8px 24px;
 }
 .span-2{
     color: #da3b60;
-
 }
-.bottom-1{
-    color: brown;
-    font-size: 24px;
 
+.bottom-1{
+    color: #da3b60;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+footer{
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+footer p {
+    text-align: center;
+}
+footer p i{
+    color: #da3b60;
 }
